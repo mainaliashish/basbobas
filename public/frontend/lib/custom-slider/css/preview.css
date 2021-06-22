@@ -1,0 +1,590 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+/* -------------------------------------
+preview-1 
+---------------------------------------- */
+.preview-1 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-1 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-1 .nivo-directionNav a.nivo-prevNav:hover:before{
+  background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-1 .nivo-directionNav a.nivo-prevNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f053";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-1 .nivo-directionNav a.nivo-nextNav:hover:before{
+ background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-1 .nivo-directionNav a.nivo-nextNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-1 .nivo-controlNav {
+    position: absolute;
+    z-index: 99999;
+    bottom: 68px;
+    opacity: 1;
+}
+.preview-1 .nivo-controlNav a {
+  border:1px solid #fff;
+  display: inline-block;
+  height:18px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  width:18px;
+  line-height: 8px;
+  background: #3c3c3c;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  opacity: 1;
+  z-index: -999;
+  border-radius: 50%;
+}
+.preview-1:hover .nivo-controlNav a{
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-1 .nivo-controlNav a:hover, .preview-1 .nivo-controlNav a.active {
+    background: #ffbe00;
+    cursor: pointer;
+}
+.preview-1 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 15px;
+  transition: all 1s;
+}
+.preview-1 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav{
+  right: 65px;
+  transition: all 1s;
+}
+.preview-1:hover .nivo-controlNav a{
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-1 .nivo-controlNav {
+    position: absolute;
+    z-index: 99999;
+    bottom: 68px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/* -------------------------------------
+preview-2
+---------------------------------------- */
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-2 .nivo-directionNav a.nivo-prevNav:hover:before{
+  background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-2 .nivo-directionNav a.nivo-prevNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f053";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-2 .nivo-directionNav a.nivo-nextNav:hover:before{
+ background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-2 .nivo-directionNav a.nivo-nextNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-2 .nivo-controlNav {
+    position: absolute;
+    z-index: 99999;
+    bottom: 68px;
+    opacity: 0;
+}
+.preview-2 .nivo-controlNav a {
+	border:1px solid #fff;
+	display: inline-block;
+	height:18px;
+	margin: 0 5px;
+	text-indent: -9999px;
+	width:18px;
+	line-height: 8px;
+	background: #3c3c3c;
+	cursor: pointer;
+	position: relative;
+	z-index: 9;
+	opacity: 1;
+	z-index: -999;
+  border-radius: 50%;
+}
+.preview-2:hover .nivo-controlNav a{
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-2 .nivo-controlNav a:hover, .preview-2 .nivo-controlNav a.active {
+    background: #ffbe00;
+    cursor: pointer;
+}
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 15px;
+  transition: all 1s;
+}
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav{
+  right: 65px;
+  transition: all 1s;
+}
+.bend-2{
+  margin-bottom: -100px;
+}
+/* -------------------------------------
+preview-3
+---------------------------------------- */
+
+.preview-3 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-3 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-3 .nivo-directionNav a.nivo-prevNav:hover:before{
+  background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-3 .nivo-directionNav a.nivo-prevNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f053";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-3 .nivo-directionNav a.nivo-nextNav:hover:before{
+ background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-3 .nivo-directionNav a.nivo-nextNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-3 .nivo-controlNav {
+    position: absolute;
+    z-index: 99999;
+    bottom: 68px;
+    display: none;
+}
+.preview-3 .nivo-controlNav a {
+  border:1px solid #fff;
+  display: inline-block;
+  height:18px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  width:18px;
+  line-height: 8px;
+  background: #3c3c3c;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  opacity: 1;
+  z-index: -999;
+  border-radius: 50%;
+}
+.preview-3:hover .nivo-controlNav a{
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-3 .nivo-controlNav a:hover, .preview-3 .nivo-controlNav a.active {
+    background: #ffbe00;
+    cursor: pointer;
+}
+.preview-3 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 15px;
+  transition: all 1s;
+}
+.preview-3 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav{
+  right: 65px;
+  transition: all 1s;
+}
+.bend-3{
+  margin-bottom: -50px;
+}
+/* -------------------------------------
+preview-4
+---------------------------------------- */
+
+.preview-4 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-4 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: -50px;
+  font-size: 0;
+  transition: all 0.5s;
+}
+.preview-4 .nivo-directionNav a.nivo-prevNav:hover:before{
+  background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-4 .nivo-directionNav a.nivo-prevNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f053";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-4 .nivo-directionNav a.nivo-nextNav:hover:before{
+ background: rgba(255, 190, 0, 0.4);
+  color: #ffffff;
+}
+.preview-4 .nivo-directionNav a.nivo-nextNav:before{
+  background: rgba(255, 255, 255, 0.3);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 1s;
+  width: 50px;
+  z-index: 9;
+  border-radius: 50%;
+}
+.preview-4 .nivo-controlNav {
+    position: absolute;
+    z-index: 99999;
+    bottom: 68px;
+    opacity: 0;
+}
+.preview-4 .nivo-controlNav a {
+  border:1px solid #fff;
+  display: inline-block;
+  height:18px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  width:18px;
+  line-height: 8px;
+  background: #3c3c3c;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  opacity: 1;
+  z-index: -999;
+  border-radius: 50%;
+}
+.preview-4:hover .nivo-controlNav a{
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-4 .nivo-controlNav a:hover, .preview-4 .nivo-controlNav a.active {
+    background: #ffbe00;
+    cursor: pointer;
+}
+.preview-4 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 15px;
+  transition: all 1s;
+}
+.preview-4 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav{
+  right: 65px;
+  transition: all 1s;
+}
+/* .bend-4{
+  margin-bottom: -25px;
+} */
+/* -------------- Home 1  ---------------- */
+.preview-1 .slider-1 h1{
+    -webkit-animation: fadeInUp 500ms ease-in-out;
+    -moz-animation: fadeInUp 500ms ease-in-out;
+    -ms-animation: fadeInUp 500ms ease-in-out;
+    animation: fadeInUp 500ms ease-in-out;
+}
+.preview-1 .slider-1 h3{
+    -webkit-animation: rubberBand 2500ms ease-in-out;
+    -moz-animation: rubberBand 2500ms ease-in-out;
+    -ms-animation: rubberBand 2500ms ease-in-out;
+    animation: rubberBand 2500ms ease-in-out;
+}
+.preview-1 .slider-1 p{
+    -webkit-animation: fadeInLeft 1000ms ease-in-out;
+    -moz-animation: fadeInLeft 1000ms ease-in-out;
+    -ms-animation: fadeInLeft 1000ms ease-in-out;
+    animation: fadeInLeft 1000ms ease-in-out;
+}
+.preview-1 .slider-1 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+.preview-1 .slider-2 h1{
+    -webkit-animation: fadeInUp 500ms ease-in-out;
+    -moz-animation: fadeInUp 500ms ease-in-out;
+    -ms-animation: fadeInUp 500ms ease-in-out;
+    animation: fadeInUp 500ms ease-in-out;
+}
+.preview-1 .slider-2 p{
+    -webkit-animation: fadeInLeft 1000ms ease-in-out;
+    -moz-animation: fadeInLeft 1000ms ease-in-out;
+    -ms-animation: fadeInLeft 1000ms ease-in-out;
+    animation: fadeInLeft 1000ms ease-in-out;
+}
+.preview-1 .slider-2 .read-more{
+    -webkit-animation: bounceInDown 1500ms ease-in-out;
+    -moz-animation: bounceInDown 1500ms ease-in-out;
+    -ms-animation: bounceInDown 1500ms ease-in-out;
+    animation: bounceInDown 1500ms ease-in-out;
+}
+.preview-1 .slider-3 h1{
+    -webkit-animation: rotateInDownLeft 1500ms ease-in-out;
+    -moz-animation: rotateInDownLeft 1500ms ease-in-out;
+    -ms-animation: rotateInDownLeft 1500ms ease-in-out;
+    animation: rotateInDownLeft 1500ms ease-in-out;
+}
+.preview-1 .slider-3 h3{
+    -webkit-animation: zoomIn 1000ms ease-in-out;
+    -moz-animation: zoomIn 1000ms ease-in-out;
+    -ms-animation: zoomIn 1000ms ease-in-out;
+    animation: zoomIn 1000ms ease-in-out;
+}
+.preview-1 .slider-3 .read-more{
+    -webkit-animation: bounceInUp 2000ms ease-in-out;
+    -moz-animation: bounceInUp 2000ms ease-in-out;
+    -ms-animation: bounceInUp 2000ms ease-in-out;
+    animation: bounceInUp 2000ms ease-in-out;
+}
+/* -------------- Home 2  ---------------- */
+.preview-2 .slider-1 h1{
+    -webkit-animation: bounceInUp 500ms ease-in-out;
+    -moz-animation: bounceInUp 500ms ease-in-out;
+    -ms-animation: bounceInUp 500ms ease-in-out;
+    animation: bounceInUp 500ms ease-in-out;
+}
+.preview-2 .slider-1 p{
+    -webkit-animation: fadeInDown 2500ms ease-in-out;
+    -moz-animation: fadeInDown 2500ms ease-in-out;
+    -ms-animation: fadeInDown 2500ms ease-in-out;
+    animation: fadeInDown 2500ms ease-in-out;
+}
+.preview-2 .slider-1 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+.preview-2 .slider-2 h1{
+    -webkit-animation: fadeInUp 500ms ease-in-out;
+    -moz-animation: fadeInUp 500ms ease-in-out;
+    -ms-animation: fadeInUp 500ms ease-in-out;
+    animation: fadeInUp 500ms ease-in-out;
+}
+.preview-2 .slider-2 p{
+    -webkit-animation: zoomIn 2500ms ease-in-out;
+    -moz-animation: zoomIn 2500ms ease-in-out;
+    -ms-animation: zoomIn 2500ms ease-in-out;
+    animation: zoomIn 2500ms ease-in-out;
+}
+.preview-2 .slider-2 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+.preview-2 .slider-3 h1{
+    -webkit-animation: fadeInUp 500ms ease-in-out;
+    -moz-animation: fadeInUp 500ms ease-in-out;
+    -ms-animation: fadeInUp 500ms ease-in-out;
+    animation: fadeInUp 500ms ease-in-out;
+}
+.preview-2 .slider-3 p{
+    -webkit-animation: fadeInDown 2500ms ease-in-out;
+    -moz-animation: fadeInDown 2500ms ease-in-out;
+    -ms-animation: fadeInDown 2500ms ease-in-out;
+    animation: fadeInDown 2500ms ease-in-out;
+}
+.preview-2 .slider-3 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+/* -------------- Home 3  ---------------- */
+.preview-3 .slider-1 h1{
+    -webkit-animation: fadeInUp 1000ms ease-in-out;
+    -moz-animation: fadeInUp 1000ms ease-in-out;
+    -ms-animation: fadeInUp 1000ms ease-in-out;
+    animation: fadeInUp 1000ms ease-in-out;
+}
+.preview-3 .slider-1 p{
+    -webkit-animation: fadeInLeft 2000ms ease-in-out;
+    -moz-animation: fadeInLeft 2000ms ease-in-out;
+    -ms-animation: fadeInLeft 2000ms ease-in-out;
+    animation: fadeInLeft 2000ms ease-in-out;
+}
+.preview-3 .slider-1 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+.preview-3 .slider-2 h1{
+    -webkit-animation: fadeInUp 2000ms ease-in-out;
+    -moz-animation: fadeInUp 2000ms ease-in-out;
+    -ms-animation: fadeInUp 2000ms ease-in-out;
+    animation: fadeInUp 2000ms ease-in-out;
+}
+.preview-3 .slider-2 p{
+    -webkit-animation: rotateInDownRight 1000ms ease-in-out;
+    -moz-animation: rotateInDownRight 1000ms ease-in-out;
+    -ms-animation: rotateInDownRight 1000ms ease-in-out;
+    animation: rotateInDownRight 1000ms ease-in-out;
+}
+.preview-3 .slider-2 .read-more{
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
+.preview-3 .slider-3 h1{
+    -webkit-animation: bounceInUp 2500ms ease-in-out;
+    -moz-animation: bounceInUp 2500ms ease-in-out;
+    -ms-animation: bounceInUp 2500ms ease-in-out;
+    animation: bounceInUp 2500ms ease-in-out;
+}
+.preview-3 .slider-3 p{
+    -webkit-animation: fadeInLeft 1000ms ease-in-out;
+    -moz-animation: fadeInLeft 1000ms ease-in-out;
+    -ms-animation: fadeInLeft 1000ms ease-in-out;
+    animation: fadeInLeft 1000ms ease-in-out;
+}
+.preview-3 .slider-3 .read-more{
+    -webkit-animation: rollIn 1500ms ease-in-out;
+    -moz-animation: rollIn 1500ms ease-in-out;
+    -ms-animation: rollIn 1500ms ease-in-out;
+    animation: rollIn 1500ms ease-in-out;
+}
+/* -------------- Home 4  ---------------- */
+.slider-4 .logo-area img {
+    -webkit-animation: zoomIn 1500ms ease-in-out;
+    -moz-animation: zoomIn 1500ms ease-in-out;
+    -ms-animation: zoomIn 1500ms ease-in-out;
+    animation: zoomIn 1500ms ease-in-out;
+}
